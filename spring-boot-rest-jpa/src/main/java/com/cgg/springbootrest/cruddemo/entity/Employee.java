@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name="employee")
 public class Employee {
 
-	// define fields
+	// define fields for employee
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
